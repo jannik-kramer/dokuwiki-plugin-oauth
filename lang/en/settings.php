@@ -8,6 +8,10 @@
 
 $lang['info']            = 'Redirect URI to use when configuring the applications';
 $lang['custom-redirectURI'] = 'Use the following custom redirect URI';
+$lang['azure-key']          = 'The Azure client ID.';
+$lang['azure-authurl']      = 'OAuth 2.0 token endpoint (v2).';
+$lang['azure-tokenurl']     = 'OAuth 2.0 authorization endpoint (v2).';
+$lang['azure-secret']       = 'The client secret of your application.';
 $lang['auth0-key']       = 'The Client ID of your registered <a href="https://manage.auth0.com/#/applications">Auth0 application</a>';
 $lang['auth0-secret']    = 'The Client Secret of your registered <a href="https://manage.auth0.com/#/applications">Auth0 application</a>';
 $lang['auth0-domain']    = 'The Domain of your registered <a href="https://manage.auth0.com/#/applications">Auth0 account</a>';

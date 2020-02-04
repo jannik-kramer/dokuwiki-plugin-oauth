@@ -26,6 +26,10 @@ class setting_plugin_oauth extends setting {
 }
 
 $meta['info']                = array('plugin_oauth');
+$conf['azure-key']          = array('string');
+$conf['azure-authurl']      = array('string');
+$conf['azure-tokenurl']     = array('string');
+$conf['azure-secret']       = array('string');
 $meta['auth0-key']           = array('string');
 $meta['auth0-secret']        = array('string');
 $meta['auth0-domain']        = array('string');
@@ -53,6 +57,7 @@ $meta['mailRestriction']     = array('string','_pattern' => '!^(@[^,@]+(\.[^,@]+
 $meta['singleService']       = array('multichoice',
                                      '_choices' => array(
                                          '',
+                                         'Azure',
                                          'Auth0',
                                          'Google',
                                          'Dataporten',

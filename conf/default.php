@@ -5,6 +5,10 @@
  * @author Andreas Gohr <andi@splitbrain.org>
  */
 
+$conf['azure-key']          = '';
+$conf['azure-authurl']      = '';
+$conf['azure-tokenurl']     = '';
+$conf['azure-secret']       = '';
 $conf['auth0-key']           = '';
 $conf['auth0-secret']        = '';
 $conf['auth0-domain']        = '';
